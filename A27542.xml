@@ -1,0 +1,547 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cupid's court of salutations full of complemental dialogues, and other amorous passages, as well commodious as delightful for young-men and maids to read and exercise.</title>
+            <author>W. B.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1687</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 27 KB of XML-encoded text transcribed from 13 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A27542</idno>
+            <idno type="STC">Wing B207</idno>
+            <idno type="STC">ESTC R37046</idno>
+            <idno type="EEBO-CITATION">16196805</idno>
+            <idno type="OCLC">ocm 16196805</idno>
+            <idno type="VID">105038</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A27542)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 105038)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1085:6)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Cupid's court of salutations full of complemental dialogues, and other amorous passages, as well commodious as delightful for young-men and maids to read and exercise.</title>
+                  <author>W. B.</author>
+               </titleStmt>
+               <extent>[24] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J. Deacon, and are to be sold by R. Kell ...,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>1687.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"To the reader" signed: W.B.</note>
+                  <note>"This may be printed, R. P."</note>
+                  <note>Place of publication suggested by Wing.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Courtship --  Poetry.</term>
+               <term>Love poetry, English.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-12</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-01</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2012-01</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:105038:1"/>
+            <pb facs="tcp:105038:1" rendition="simple:additions"/>
+            <p>
+               <hi>Cupids Court</hi> OF SALUTATIONS. Full of Complemental Dialogues, and other amorous paſſages, as well Commodious as delightful for Young-men and Maids to Read and Exerciſe.</p>
+            <floatingText xml:lang="eng" type="license">
+               <body>
+                  <p>
+                     <hi>This may be Printed,</hi>
+                  </p>
+                  <closer>
+                     <signed>R. P.</signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <p>Printed for <hi>J. Deacon,</hi> and are to be Sold by <hi>R. Kell,</hi> at the <hi>blew Achor</hi> in <hi>Pye-Corner,</hi> near <hi>Weſt Smithfield:</hi> 1687.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:105038:2"/>
+            <pb facs="tcp:105038:2"/>
+            <head>To the READER.</head>
+            <opener>
+               <salute>Courteous Reader,</salute>
+            </opener>
+            <p>IT is a cuſtom, that in every ſmall Pamphler, the <hi>Epiſtle to the Reader</hi> muſt fill up ſome room: therefore I preſent theſe few Lines unto you, and with them my Book, which I intreat you to peruſe with an impartial judgement: For it is the firſt I ever ventured into the the World, and muſt only commit to your cenſure, which, according to your eſtimation of it, ſhall either imbolden or direct my hopes; I could tire my Pen with Comple<g ref="char:EOLhyphen"/>ments to you, and praiſe the uſe of eloquent Phraſes, and force that fair
+<pb facs="tcp:105038:3"/> ſpeeches bear, in expreſſing that paſ<g ref="char:EOLhyphen"/>ſions of a Lover to his beſt Beloved; and inſtruct you how to behave your ſelf before you encounter your Miſtris. Firſt in the geſture of your body, and other paſſages, either at <hi>Table,</hi> or in other <hi>Company,</hi> when con<g ref="char:EOLhyphen"/>ference will not be admitted; but <hi>I</hi> know that he who is a Lover, is ca<g ref="char:EOLhyphen"/>pable enough of ſuch behaviour; and therefore not deſiring to trou<g ref="char:EOLhyphen"/>ble your patience, or burthen your Memory with too many ſuperfluous Words, <hi>I</hi> only Dedicate theſe few Verſes to your favourable Con<g ref="char:EOLhyphen"/>ſtruction of them and me.</p>
+            <lg>
+               <pb facs="tcp:105038:3"/>
+               <l>He that's a Lover muſt find out</l>
+               <l>More ways then one, and trace about</l>
+               <l>In ſeveral paths; he muſt not be</l>
+               <l>Diſcourag'd, though he daily ſee</l>
+               <l>Strange croſſes to perplex his Love,</l>
+               <l>But ſtill in conſtant croſſe; move;</l>
+               <l>And ſo at length he ſhall aſpire</l>
+               <l>To the full height of his deſire.</l>
+               <l>Three things in Love he muſt endure,</l>
+               <l>E're he the depth of Love procure;</l>
+               <l>Firſt Time, then Opportunity,</l>
+               <l>The next is patient Conſtancy:</l>
+               <l>Time, Opportunity doth bring,</l>
+               <l>And Opportunity the thing</l>
+               <l>Which he deſires, if Patience,</l>
+               <l>Can but Foundation take from hence,</l>
+               <l>And wait the time till it diſcry,</l>
+               <l>And find out Opportunity.</l>
+            </lg>
+            <lg>
+               <l>That man who conſtantly theſe ways can prove</l>
+               <l>Let me loſe mine, if he get not his Love.</l>
+            </lg>
+            <closer>
+               <signed>W. B.</signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:105038:4"/>
+            <head>A Direction for Lovers, how to chuſe their Mates.</head>
+            <lg>
+               <l>WHen <hi>Cupid</hi> with his Golden Dart,</l>
+               <l>Hath pierc'd your breaſt, and that your heart</l>
+               <l>Feels amorous flames, if you intend</l>
+               <l>To chuſe a Mate, and Bridal Friend,</l>
+               <l>Let them be Young, or let them be</l>
+               <l>Of ſuiting Years which may agree,</l>
+               <l>And equal to your chaſt deſires,</l>
+               <l>Cheriſh you ſtill in loves ſtrong fires<g ref="char:punc">▪</g>
+               </l>
+               <l>Or when your love you chance to fix,</l>
+               <l>Place it ſo firm as't ne'r may mix</l>
+               <l>With wavering thoughts, but always may</l>
+               <l>Be conſtant to your Dying day:</l>
+               <l>Which ſhall tranſport your Souls from Earth,</l>
+               <l>In Love unto a ſecond Birth:</l>
+            </lg>
+            <lg>
+               <l>Where when pale Death hath born you hence</l>
+               <l>True Love will make you recompence.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:105038:4"/>
+            <head>CUPID TO ALL HIS SCHOLLARS.</head>
+            <lg>
+               <l>YOung-men &amp; Maids, whoſe conſtant mind</l>
+               <l>To true affection is inclin'd:</l>
+               <l>Whoſe modeſt thoughts yet never knew,</l>
+               <l>Unchaſt deſires, but ſtill were true:</l>
+               <l>Unto your choſen Mates reſort<g ref="char:punc">▪</g>
+               </l>
+               <l>With boldneſ<g ref="char:punc">▪</g> unto <hi>Cupid</hi>'s Court.</l>
+            </lg>
+            <lg>
+               <l>If you want words to Wooe, or Art,</l>
+               <l>My beſt of skill I here impart:</l>
+               <l>But from your breaſt you baniſh muſt</l>
+               <l>All foul deſires, that nouriſh Luſt;</l>
+               <l>For <hi>Cupid</hi>'s Shafts is never us'd,</l>
+               <l>Where Love with Luſt ſhall be abus'd.</l>
+            </lg>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="dialogue">
+            <pb facs="tcp:105038:5"/>
+            <pb facs="tcp:105038:5"/>
+            <head>A Complemental Dialogue Between a Young-Man and a Maid, at the firſt Meeting.</head>
+            <head type="sub">DIALOGUE. 1.</head>
+            <sp>
+               <speaker>Young-man:</speaker>
+               <p>Fair Maid, e're I begin my ſuit, I muſt ask your Pardon.</p>
+            </sp>
+            <sp>
+               <speaker>Maid.</speaker>
+               <p>Pardon Sir! that's eaſily granted, you never offended me.</p>
+            </sp>
+            <sp>
+               <speaker>Young-man.</speaker>
+               <p>Nor never will: yet leaſt my rude Language, and too hold intruſion into ſo fair a Virgins preſence, eſpecially on ſo ſmall ac<g ref="char:EOLhyphen"/>quaintance may ſeem offenſive, I crave that, and freedom to ſpeak, that I might reveal a ſecret, which will break my heart if I conceal it any longer.</p>
+            </sp>
+            <sp>
+               <speaker>Maid.</speaker>
+               <p>Sir, modeſty, which is a Maidens chiefeſt guide, almoſt forbids me to admit long conference with a ſingle Man in private, leſt jea<g ref="char:EOLhyphen"/>louſie might make ſome ſuſpect, what our chaſt thoughts never intended.</p>
+            </sp>
+            <sp>
+               <speaker>Young-man.</speaker>
+               <p>Miſtris, you may vaniſh that
+<pb facs="tcp:105038:6"/> fear: 'tis for any ſenſual affection, as intending in the leaſt point to ſtain your honour, that I have preſumed to utter my mind in ſecret to you.</p>
+            </sp>
+            <sp>
+               <speaker>Maid.</speaker>
+               <p>If I may be aſſured of this Sir, that ſmall time I have, which (alas) is but little from my Parents ſight, I willingly diſpence with, to hear your Suit, and therefore deſire you that you would be brief.</p>
+            </sp>
+            <sp>
+               <speaker>Young-man.</speaker>
+               <p>Then know fair Maid, I love you, moved thereunto<g ref="char:punc">▪</g> not upon eaſie grounds, or a raſh and haſty deſire of obtaining, but by the report and ſplendor of thoſe rare qualities which are inherent in your vertuous mind; but ſince I viewed your Perſon, and thoſe rich features which adorn it, and equalize your better parts, my heart is re-inflamed with a ſtrong, yet chaſt affecti<g ref="char:EOLhyphen"/>on; and I could wiſh this minute were the hour to accompliſh my deſires, and knit our hearts in a true Lovers Knot, by the laſting bond of Marriage.</p>
+            </sp>
+            <sp>
+               <speaker>Maid.</speaker>
+               <p>I were ingrateful, Sir, ſhould I ab<g ref="char:EOLhyphen"/>ſolutely deny you, and not return you thanks, though I cannot upon the ſudden (for Marriages too haſty concluded, ſeldom proſper) reſolve you fully, yet time and oftner meeting, I hope, ſhall e're long confirm our affections. I fear my Fa<g ref="char:EOLhyphen"/>thers diſpleaſure, and dare not preſume too much upon it, therefore I muſt intreat you to excuſe my abrupt, yet unwilling departure: but yet de<g ref="char:EOLhyphen"/>ſpair
+<pb facs="tcp:105038:6"/> not, but till our next meeting (which I hope ſhall be as ſudden as our wiſhes) let it ſuffice that I am yours, which I will confirm by the conveyance of ſome private Letters, and find oc<g ref="char:EOLhyphen"/>caſion to appoint a time convenient; that when we meet again, we may make our ſelves more happy in enjoying each others preſence more op<g ref="char:EOLhyphen"/>portunely, and a longer ſpace: So for this time, wiſhing that all the joy and happineſs of a con<g ref="char:EOLhyphen"/>ſtant Lover may ſtill attend you, I take my leave.</p>
+            </sp>
+         </div>
+         <div n="2" type="dialogue">
+            <head>DIALOGUE. II.</head>
+            <stage>A Dialogue between a Young-man and a Maid, at their ſecond meeting.</stage>
+            <sp>
+               <speaker>Young-man.</speaker>
+               <p>FAir Miſtris, for ſo I may now more boldly term you, ſince I find you ſtedfaſt in your Love, es in my abſence you have expreſſed by your Letters, and not wa<g ref="char:EOLhyphen"/>vering according to the Old Proverb; <hi>Out of ſight, out of mind.</hi> I cannot conceive whether my abſence ſo long from you ſeem'd more tedious or your preſence at this inſtant more joyful to me; ſince every minute methought ſeem'd a day, and every day a month, and every month a year, till I ſaw you.</p>
+            </sp>
+            <sp>
+               <speaker>Maid.</speaker>
+               <p>You diſcover ſo much effection to me, Sir, as I ſhould ſhew ingratitude, if I ſhould
+<pb facs="tcp:105038:7"/> not both accept and require it; and were it not that I might be taxed of diſobedience, if I ſhould too ſuddenly condeſcend to what you requeſt of me, to conclude a march without the conſent of my friends, this minute ſhould give an end to all delays, and conſumate our felicities in the happy Vnion of Wedlock: therefore I muſt intreat you, that they who gave me birth and education in this World, may be a furtherance to our fur<g ref="char:EOLhyphen"/>ther proceedings.</p>
+               <lg>
+                  <l>Now ſhall we when the Nuptial knot is ty'd,</l>
+                  <l>Be joyful in each others company;</l>
+                  <l>You glad in the imbracements of your Bride,</l>
+                  <l>And I enjoy my Bridegroom lovingly:</l>
+                  <l>For Marriages concluded by conſent</l>
+                  <l>Of friends, till death divide the knot ſhall laſt,</l>
+                  <l>When others 'gainſt their wills breeds diſcon<g ref="char:EOLhyphen"/>tent,</l>
+                  <l>And are diſpers'd by every little blaſt.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Young-man.</speaker>
+               <p>Miſtris, you ſpeak my thoughts, and though I have often ſeen what ſtrange chan<g ref="char:EOLhyphen"/>ges in affection the deferring of time hath bred in Love, yet I cannot diſtruſt you, for I know it is as impoſſible that any ſeparation ſhould ſtep be<g ref="char:EOLhyphen"/>tween our hearts, as it is for vertue to depart from yours, where it hath had ſo long abode; and therefore that you may ſee I am not over-ha<g ref="char:EOLhyphen"/>ſty in a matter which ſo much concerneth both our goods, I leave it to your diſcretion to appoint the way, and work the means with an earneſt pro<g ref="char:EOLhyphen"/>teſtation,
+<pb facs="tcp:105038:7"/> that you ſhall not find me backward in my beſt endeavours to effect it, ſince I muſt ei<g ref="char:EOLhyphen"/>ther dye or live in your imbraces.</p>
+            </sp>
+            <sp>
+               <speaker>Maid.</speaker>
+               <p>Well Sir, we need no greater aſſu<g ref="char:EOLhyphen"/>rance of our mutual conſtancy; only let this haſt Salutation ſeal the hand of our affection, till it be more firmly tyed in the publick Congregati<g ref="char:EOLhyphen"/>on, and I hope not only with the correſpondence of our own deſires, but the aſſiſtance and liking of our Parents.</p>
+            </sp>
+         </div>
+         <div n="3" type="dialogue">
+            <head>DIALOGUE. III.</head>
+            <stage>To move a ſuit to a Father, for his conſent to Marry his Daughter.</stage>
+            <sp>
+               <speaker>Young-man.</speaker>
+               <p>WOrthy Sir, I doubt not but your Daughter, and my moſt intimately affected Friend hath certified you part<g ref="char:EOLhyphen"/>ly of what I intend more at large to requeſt of you, which is your good will and liking, and that you would be pleaſed to eſteem ſo well of me, as to be<g ref="char:EOLhyphen"/>ſtow your Daughter in Marriage upon me.</p>
+            </sp>
+            <sp>
+               <speaker>Father.</speaker>
+               <p>Sir, your requeſt is reaſonable, and may be accepted: but blame me not if at firſt I ſeem ſomewhat ſcrupulous, for it behoves a Fa<g ref="char:EOLhyphen"/>ther to regard his Childrens welfare, ſince in their behaviour towards him (both while they are under his tuition, or from it) and his care of
+<pb facs="tcp:105038:8"/> their prefermet, conſiſts his Felicity or Miſery: therefore I muſt deſire ſome reſpiie, that I may be eſſured both of your eſtate and condition; which when I have been truly certified of, you ſhall receive an anſwer.</p>
+            </sp>
+            <sp>
+               <speaker>Young-man.</speaker>
+               <p>I know Sir, you have been a Lo<g ref="char:EOLhyphen"/>ver in your days, and have felt how tedious a ſmall time ſeems to them, whoſe hearts have been com<g ref="char:EOLhyphen"/>bined by a Natural conſent already, and therefore humbly deſire your ſpredy reſolution; for as I in<g ref="char:EOLhyphen"/>large in a fervent deſire, lawfully to enjoy your fair daughter, ſo ſhall I grow proud to be termed the Son of ſo grave and aged a Father.</p>
+            </sp>
+            <sp>
+               <speaker>Father.</speaker>
+               <p>Sir, your external qualities both in Perſon and Behaviour, ſhew you to be worthy of a better match than my Daughter; nor if I find no other deſerts, ſhall it be long e're I ſtrike a con<g ref="char:EOLhyphen"/>cluſion to your lingring expectations. Till then, I pray you to take a freedom of my poor houſe for your entertainment, in your frequent viſitation of my Daughter, and I hope time will not only diſcover your perfections in deſerving her equal, but make my age joyful in two ſuch obedient chil<g ref="char:EOLhyphen"/>dren, and a proſperous iſſue from them.</p>
+            </sp>
+         </div>
+         <div n="4" type="dialogue">
+            <pb facs="tcp:105038:8"/>
+            <head>DIALOGUE. IV.</head>
+            <stage>An earneſt Suit of a conſtant Lover, to a Coy Maid.</stage>
+            <sp>
+               <speaker>Lover.</speaker>
+               <p>FAir Maid, I have long been an earn<g ref="char:EOLhyphen"/>eſt Suitor, both by Letters, and other rare expreſſions of my love, but in my ab<g ref="char:EOLhyphen"/>ſence, could never obtain the leaſt ſhew of favour from you, which hath made me at the laſt preſent my ſelf, and ſhall be happy, if I may perceive the leaſt glance of a pleaſing Smile from your ſweet Countenance to ſhine upon me.</p>
+            </sp>
+            <sp>
+               <speaker>Maid.</speaker>
+               <p>Sir, it was not a conceit of any defect either in your perſon or Quality, nor ſuſpition of your deſcent, that made me all this while conceal my affection from you (though the deceit of Lo<g ref="char:EOLhyphen"/>vers in this age, give a juſt cauſe thereof) but the conſideration of the miſery which purfues haſty Wedlock, made me for a time defer an anſwer, leſt my too haſty conſent might move you and ſome others to imagine that it proceeded rather from a fear of wavering inconſtancy, than truth of perfect affection.</p>
+            </sp>
+            <sp>
+               <speaker>Lover.</speaker>
+               <p>Then ſay dear Friend, you love me now, and let one poor ſillable breath'd from your ſweet Lip, receive my drooping Heart, that hath thus long languiſhed under the burden of your diſdain, O ſpeake quickly, or elſe</p>
+               <lg>
+                  <l>My ſcarce conceived joys will dye,</l>
+                  <l>And periſh in their Infancy.</l>
+               </lg>
+            </sp>
+            <sp>
+               <pb facs="tcp:105038:9"/>
+               <speaker>Maid.</speaker>
+               <p>You are too importunate, yet that you may not deſpair, know, I ſomewhat affect you, but muſt defer the concluſion of our Marriage longer, in the mean time you may viſit me, and ſhall be kindly welcome, and for this time I bid your farewel.</p>
+            </sp>
+            <sp>
+               <speaker>Lover.</speaker>
+               <p>My beſt wiſhes attend you, but hear you fair one. I have one ſuit more: O ſtay a lit<g ref="char:EOLhyphen"/>tle, and do not take away my heart my life, my happineſs all at once, for with you goes all, all that this world affords me. But if you will needs go, let this parting ſalutation leave ſome impreſ<g ref="char:EOLhyphen"/>ſion upon your ſweet Lips, to put you in ſome remembrance of me, your impatiently afflicted ſervant.</p>
+            </sp>
+            <sp>
+               <speaker>Maid.</speaker>
+               <p>Now you are immodeſt, and I muſt chide you, while you proteſs true love (which de<g ref="char:EOLhyphen"/>lights not in laſcivious kiſſes) I was partly wil<g ref="char:EOLhyphen"/>ling to imbrace it; but now I muſt recall my too forward promiſe.</p>
+            </sp>
+            <sp>
+               <speaker>Lover.</speaker>
+               <p>O be not ſo cruel, let not a wrinkled frown obſcure the brightneſs of that fair Sun<g ref="char:EOLhyphen"/>ſhine, which dwells upon thoſe ſmooth Cheeks: be not unkind and fair, for ſuch the mighty <hi>Cupid</hi> in his doom hath vowed to be revenged on: let not a cruel Sentence pronounced from thoſe bright Rubies, ſo ſoon deprive me quite of Life<g ref="char:punc">▪</g> ſince you are my judge, whilſt I plead at the bar of Love) and can at one word ſtrike me dead, or
+<pb facs="tcp:105038:9"/> reprieve me: O then let one pleaſing ſmile from you lend me a minutes happineſs.</p>
+            </sp>
+            <sp>
+               <speaker>Maid.</speaker>
+               <p>Mov'd as much by pitty as Affection, I lend you this minutes happineſs if you be conſtant) as by your ſeeming paſſions you ex<g ref="char:EOLhyphen"/>preſs, you may entertain a reſolution that you ſhall enjoy me: but by a legal way, I prize you as my ſelf, and would not you ſhould miſcarry either in health or ſickneſs for a Million: but muſt intreat your further patience, till I have finiſht ſome buſineſs which may highly concern our Marriage, and make us happier when it is perform'd<g ref="char:punc">▪</g> ſo take a freedom that was never granted to any (a chaſt kiſs) for our pledge ac<g ref="char:EOLhyphen"/>cording to your own unſpotted deſire.</p>
+               <lg>
+                  <l>But if an unchaſt thought you entertain,</l>
+                  <l>Never ſhall you imbrace my Love again:</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Lover.</speaker>
+               <p>If I have been too rude, or ſeemed the leaſt way to abuſe your chaſt intentions with my too bold or unmannerly behaviour, where the regard of fame, honour, modeſty, and only ſuch diſcourſe, as a kind Brother might ſalute his Siſter with, ſhould rather have been rendered. O forget it, and henceforth I will always be ſilent to all diſcourſes, but ſuch as ſhall ſuit to your ſweet thoughts, and diſcreet modeſty.</p>
+               <lg>
+                  <l>Indeed I will not ask a Kiſs of you,</l>
+                  <l>No, not to wring your finger, or to ſue</l>
+                  <l>To theſe bleſt pair of fixed Stars for ſmiles,</l>
+                  <pb facs="tcp:105038:10"/>
+                  <l>All a young lovers cunning, all his wiles,</l>
+                  <l>And pretty wanton dallyings ſhall to me</l>
+                  <l>Be ſtrangers, only to your Chaſtity</l>
+                  <l>I am devoted ever, that ſhall bind</l>
+                  <l>Our hearts as firm as is the Ivy twin'd</l>
+                  <l>About a well-grown Elm, and ne'r untye,</l>
+                  <l>Till Hymen yoke us in true Loyalty.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Maid.</speaker>
+               <p>Continue in this reſolution, and I am yours.</p>
+            </sp>
+         </div>
+         <div n="5" type="dialogue">
+            <head>DIALOGUE V.</head>
+            <stage>A Merry way of Wooing a Widdow, by a Young-Man.</stage>
+            <sp>
+               <speaker>Young man.</speaker>
+               <p>THe time of the day to you Wid<g ref="char:EOLhyphen"/>dow, or the beſt hour of the night, when you have a Bed-fellow, and had rather wake than ſleep.</p>
+            </sp>
+            <sp>
+               <speaker>Wid.</speaker>
+               <p>The like to you Sir, your own wiſhes are returned, farewel.</p>
+            </sp>
+            <sp>
+               <speaker>Young.</speaker>
+               <p>Y'are very abrupt Widdow.</p>
+            </sp>
+            <sp>
+               <speaker>Wid.</speaker>
+               <p>Faith, would you were ſo too Sir, that I might be gone, I have more buſineſs than to ſtand prating about had I wiſt.</p>
+            </sp>
+            <sp>
+               <speaker>Young.</speaker>
+               <p>Nay, but ſtay Widdow, I have a ſuit to you.</p>
+            </sp>
+            <sp>
+               <speaker>Wid.</speaker>
+               <p>To me Sir! I pray you then prove a good Taylor, and finiſh it quickly.</p>
+            </sp>
+            <sp>
+               <speaker>Young.</speaker>
+               <p>Y'are witty Widdow: but in good ſooth now tell me, that's my buſineſs, what think you of me, or how do you like me?</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:105038:10"/>
+               <speaker>Wid.</speaker>
+               <p>Why to tell you the truth, I think you are a very ſprute Young-man, and for the other, I like you as I always did, as well be<g ref="char:EOLhyphen"/>fore as behind.</p>
+            </sp>
+            <sp>
+               <speaker>Young.</speaker>
+               <p>And better too I believe: but to be brief, what ſay you? Could you affect me, Widdow? durſt you venture to caſt away your ſelf upon a luſty Lad now? I have good limbs, and a ſtrong back, and can work hard for my living.</p>
+            </sp>
+            <sp>
+               <speaker>Wid.</speaker>
+               <p>You were beſt to go to the Mines, and dig Coals at <hi>New-Caſtle,</hi> there will be imploy<g ref="char:EOLhyphen"/>ment for you.</p>
+            </sp>
+            <sp>
+               <speaker>Young.</speaker>
+               <p>Nay, but to leave off theſe demuring juſts, canſt thou love me? come, come, be like a Maid for once, ſay no and take it; you have been long troubled with a croſs old Fellow, and now you are rid of him that lay Bed-rid by you ſo many years; he not a Fool, and lye (as ma<g ref="char:EOLhyphen"/>ny) alone; I le make thee young again.</p>
+            </sp>
+            <sp>
+               <speaker>Wid.</speaker>
+               <p>I thank you for nothing Sir, I can do that with a little <hi>Pomar jum</hi> and Maiden-bluſh, dawbed upon my Cheeks.</p>
+            </sp>
+            <sp>
+               <speaker>Young.</speaker>
+               <p>Nay, once again be brief, in truth I love you heartily, and could wiſh we were going to Church to be Marryed.</p>
+            </sp>
+            <sp>
+               <speaker>Wid.</speaker>
+               <p>Soft Sir, two words to a bargain; old Birds are not caught with Chaff, Marry in haſt, and repent at leaſure: When I have taken a
+<pb facs="tcp:105038:11"/> little conſideration of my Pillow, I will tell you more of my mind, adieu.</p>
+            </sp>
+            <sp>
+               <speaker>Young.</speaker>
+               <p>But when ſhall I ſee you again?</p>
+            </sp>
+            <sp>
+               <speaker>Wid.</speaker>
+               <p>When I have nothing elſe to do.</p>
+            </sp>
+            <sp>
+               <speaker>Young.</speaker>
+               <p>Come, come, we muſt not part yet, I' ſaith, you ſhall take a pint firſt Widdow.</p>
+            </sp>
+            <sp>
+               <speaker>Wid.</speaker>
+               <p>What muſt be, muſt be, let's ha't quickly then.</p>
+            </sp>
+            <sp>
+               <speaker>Young.</speaker>
+               <p>Yet I muſt not forget my old ſuit, what can you love me or no?</p>
+            </sp>
+            <sp>
+               <speaker>Wid.</speaker>
+               <p>I cannot tell truly yet, but I think I ſhall do by and by.</p>
+            </sp>
+            <sp>
+               <speaker>Young.</speaker>
+               <p>Well, the other Blaſs of Canary to you Widdow; that and a little pauſe will con<g ref="char:EOLhyphen"/>firm it, ſpeak, is it concluded?</p>
+            </sp>
+            <sp>
+               <speaker>Wid.</speaker>
+               <p>Come, I had as good be ſerious, and give you your anſwer; for I perceive I ſhall be troubled with you: You have won my affection, by your importunance: A thouſand baſhful Coxcombs might have come and I ſhould have daſht them all our of countenance, but thou haſt hit the nail on the head, and hadſt not thou tired me with tedious Wooing, thou hadſt never got me, but now be as brief to procure a Licenſe ſpeedily (that ſhall be your charge) for tomorrow I muſt be wedded, &amp; bedded, or I am gone again.</p>
+            </sp>
+         </div>
+         <div n="6" type="dialogue">
+            <head>DIALOGUE VI.</head>
+            <stage>To intreat a Friends aſſiſtance, in obtaining his Miſtris.</stage>
+            <sp>
+               <pb facs="tcp:105038:11"/>
+               <speaker>Lover.</speaker>
+               <p>WOrthy friend, ſo I hope our long acquaintance hath admitted freedom, to call you, and be aſſured of it, my occaſion makes me earneſt to entreat a courteſie of you; and I hope you will not deny it.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>Not if it be in the power of a Man to perform; for I prize a true friend as my ſelf: and there is a Sympathy in perfect Friendſhip, which mutually combines their hearts; and me<g ref="char:EOLhyphen"/>thinks the good that does befall my true Friend, reflects upon my ſelf; and I ſhall be as glad to be imployed in your ſervice, as joyful that it may be effected proſperouſly, whenſoever you ſhall command me to undertake it.</p>
+            </sp>
+            <sp>
+               <speaker>Lover.</speaker>
+               <p>Sir, I preſume upon the truth of your Friendſhip, otherwiſe I ſhould not be ſo bold either to be ſo troubleſome to you, or to commit ſo great a ſecret to your charge, which ſo infi<g ref="char:EOLhyphen"/>nitely may import my welfare, if I enjoy it; or misfortune, if I miſs of it.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>You cannot diſcloſe it Sir, ſo ſoon as I ſhall be willing to imbrace, and with my beſt endeavour and power, ſtrive to bring it to a de<g ref="char:EOLhyphen"/>ſired concluſion.</p>
+            </sp>
+            <sp>
+               <speaker>Lover.</speaker>
+               <p>Give ear then worthy Friend, while I relate it: I have a Miſtris, in whoſe fair tountenance dwells more ſweetneſs than the moſt curious Painters can allow to their beſt Pieces: In compariſon of whoſe beauty, all the
+<pb facs="tcp:105038:12"/> beſt expreſſions of ancient Poets, either of <hi>Hellen</hi> (or more than mortal <hi>Venus)</hi> come far ſhort of, of whom I may ſay with the Poet:</p>
+               <lg>
+                  <l>Methinks in her fair face,</l>
+                  <l>Dwells all the features, all the grace</l>
+                  <l>A beauteous Woman can enjoy,</l>
+                  <l>No ſhe, whoſe beauty bore to <hi>Troy</hi>
+                  </l>
+                  <l>A fatal ruine; not the Mother</l>
+                  <l>Of fair <hi>Cupid,</hi> nor any other</l>
+                  <l>That nature ever fram'd, can be</l>
+                  <l>Compared to my Miſtris: ſhe</l>
+                  <l>Exceeds all theſe beſides Divine;</l>
+                  <l>All Vertues that amongſt the nine</l>
+                  <l>Coeleſtial Siſters were divided,</l>
+                  <l>Are in her fair breaſt united.</l>
+               </lg>
+               <p>From whoſe fair eyes was glanc'd a ſtronger tharm, than my weak Soul is able to endure, unleſs by the ſame beauty from whence it firſt was darted, it be again recovered; but alas, I know not which way to accompliſh it, without the aſſiſtance and furtherance of an intimate friend, whoſe care may convey ſome Letters interchangeable betwixt us; for I dare not ad<g ref="char:EOLhyphen"/>venture to viſit her my ſelf, becauſe of the en<g ref="char:EOLhyphen"/>mity betwixt our Parents, and ſome other lets which interrupt my reſolutions. Be not angry therefore, worthy friend, that I am thus fami<g ref="char:EOLhyphen"/>liar with you to trouble you ſo far: you are not ignorant, how wary lovers ſhould be in commit<g ref="char:EOLhyphen"/>ting
+<pb facs="tcp:105038:12"/> fruth to any man in viſitation of their Mi<g ref="char:EOLhyphen"/>ſtris, leſt his preſent familiarity might tranſport her affections from her abſent beloved Friend: It is not policy indeed, but my confidence of you is ſuch, that I cannot entertain a thought that may induce me the leaſt way to ſuſpect your faith, or imagine that you will give the leaſt occaſion for the breach of your friendſhip.</p>
+            </sp>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>Again, I vow to be your true friend and ſervant, and to undertake your buſineſs, with as ſull intent to conclude it, and as true a zeal, as if it were mine own; and if you find me the leaſt way faulty, or negligent in your buſineſs, or trea<g ref="char:EOLhyphen"/>cherous to deceive you of your love, may the great<g ref="char:EOLhyphen"/>eſt vexation of a Lover fall upon me, and my wife (when it pleaſeth <hi>Cupid</hi> to beſtow one on me) be like his Mother &amp; with every Clown cornute me.</p>
+            </sp>
+            <sp>
+               <speaker>Lover.</speaker>
+               <p>It is ſufficient; let me requeſt you therefore with your beſt ſecreſie, to convey this Letter to my fair Miſtris, and in it incloſed this Ring, the poſie whereof is,</p>
+               <lg>
+                  <l>I long to prove, The joys of Love.</l>
+               </lg>
+               <p>And what my rude Language hath not fully expreſt, be you my Orator to ſatisfie her more fully, and how I ſtand affected and obliged as well to her vertues as Beauty. My impatient deſire to hear from my fair Miſtris, will nor give me leave to detain you any longer, therefore with my equal wiſhes for your ſucceſs and health, till I
+<pb facs="tcp:105038:13"/> am made happy with the ſight of you again, by your quick return, I take my leave.</p>
+            </sp>
+         </div>
+         <div n="7" type="dialogue">
+            <head>DIALOGUE VII.</head>
+            <stage>The Friends return, with a Letter from his Miſtris.</stage>
+            <sp>
+               <speaker>Friend.</speaker>
+               <p>WOrthy Sir, with as much gladneſs as ſpeed to bring you theſe happy tydings, I return you this anſwer from your ſecond ſelf: that <hi>Cupid</hi> reciprocally hath wound<g ref="char:EOLhyphen"/>ed her with his Golden Shaft, and ſhe is as much inamoured of you, as your affection poſſible can be extended towards her; of which this Let<g ref="char:EOLhyphen"/>ter will more at large, and more certainly give you knowledge.</p>
+            </sp>
+            <div type="letter">
+               <head>The LETTER.</head>
+               <p>WOrthy Sir, I could rather wiſh to have been the bearer hereof my ſelf, (that we might have expreſſed our gladneſs more full, enjoying the happineſs of each others preſence) then to have ſent it in writing, for I ſhall never reſt quiet till I ſee you be aſſured of my love, therefore (though my ſhortneſs of time, which <hi>I</hi> borrowed from the ſight of my two ſtrict Guardians, will not give me leave to be more copious) and let your reſolution be conſtant, to meet at the place appointed; till when, with as much patience as my impatient affection will permit me, I continue</p>
+               <closer>
+                  <signed>Your truly devoted and deareſt Friend.</signed>
+               </closer>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:105038:13"/>
+         </div>
+      </body>
+   </text>
+</TEI>
